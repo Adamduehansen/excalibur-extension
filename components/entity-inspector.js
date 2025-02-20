@@ -1,10 +1,9 @@
-import { LitElement, html } from "lit";
+import { html, LitElement } from 'lit';
 
 export class ElementInspector extends LitElement {
-
-    render() {
-        html`<div>test lit</div>`
-    }
+  render() {
+    html`<div>test lit</div>`;
+  }
 }
 
 customElements.define('simple-greeting', ElementInspector);
